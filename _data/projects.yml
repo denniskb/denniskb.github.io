@@ -8,7 +8,8 @@
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
   name: Faster and Simpler SNN Simulation with Work Queues.
-  quote: Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2019). Faster and Simpler SNN Simulation with Work Queues. To appear in IJCNN 2020.
+  quote: >
+    Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2019). Faster and Simpler SNN Simulation with Work Queues. To appear in IJCNN 2020.
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -20,7 +21,8 @@
     
 - layout: top-middle
   name: A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
-  quote: Bautembach, D., Oikonomidis, I., & Argyros, A. (2018, June). A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference (pp. 23-30).
+  quote: >
+    Bautembach, D., Oikonomidis, I., & Argyros, A. (2018, June). A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference (pp. 23-30).
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -30,7 +32,8 @@
     
 - layout: top-middle
   name: <a name="hdfusion" href="#"></a>Scalable Volumetric Surface Reconstruction
-  quote: Chen, J., Bautembach, D., & Izadi, S. (2013). Scalable real-time volumetric surface reconstruction. ACM Transactions on Graphics (ToG), 32(4), 1-16.
+  quote: >
+    Chen, J., Bautembach, D., & Izadi, S. (2013). Scalable real-time volumetric surface reconstruction. ACM Transactions on Graphics (ToG), 32(4), 1-16.
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -44,7 +47,8 @@
     
 - layout: top-middle
   name: <a name="asvo" href="#"></a>Animated Sparse Voxel Octrees
-  quote: Unpublished BSc thesis
+  quote: >
+    Unpublished BSc thesis
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/tkn6ubbp1SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
