@@ -1,0 +1,59 @@
+#- layout: top-middle
+#  name: Super awesome project
+#  link: github.com/sproogen
+#  github: sproogen/resume-theme
+#  quote: >
+#    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#  description: | # this will include new lines to allow paragraphs
+#    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+- layout: top-middle
+  name: Faster and Simpler SNN Simulation with Work Queues.
+  quote: Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2019). Faster and Simpler SNN Simulation with Work Queues. To appear in IJCNN 2020.
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    We present a state of the art spiking neural network simulator that is up to 3x faster than the competition and features a modern and inuitive API, allowing you to simulate completely custom models with ease.
+    
+    **Resources**:
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1fMu2vXAJo_2gCZxkjsoQKoW8_D69qtwy/view?usp=sharing)
+    - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/ijcnn2020)
+    
+- layout: top-middle
+  name: A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
+  quote: Bautembach, D., Oikonomidis, I., & Argyros, A. (2018, June). A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference (pp. 23-30).
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    We estimate human poses by treating them as missing/incomplete rows in a "pose database" matrix and calculating missing entries via matrix completion.
+    
+    <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1KjbFcSWh6folu6oz8NeEeMGG2jGLinGL/view?usp=sharing)
+    
+- layout: top-middle
+  name: <a name="hdfusion" href="#"></a>Scalable Volumetric Surface Reconstruction
+  quote: Chen, J., Bautembach, D., & Izadi, S. (2013). Scalable real-time volumetric surface reconstruction. ACM Transactions on Graphics (ToG), 32(4), 1-16.
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    [KinectFusion](https://www.microsoft.com/en-us/research/project/kinectfusion-project-page/) is a well-known 3D scanner powered by Microsoft’s Kinect camera. It has recently found its way into the official [Kinect for Windows SDK](https://www.microsoft.com/en-us/download/details.aspx?id=44561). While KinectFusion produces very high-quality scans in real-time, it is limited to relatively small spaces.
+
+    In this paper we extend KinectFusion with a sparse data structure and streaming, allowing us to scan areas of virtually infinite size while maintaining the quality and performance of the original algorithm.
+    
+    **Resources**:
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/0B8mr2Y3MS0dgMzE2VGpzWHJPQ28/view?usp=sharing)
+    - <img class="icon" src="images/pp.png"/> [Siggraph slides](https://drive.google.com/file/d/0B8mr2Y3MS0dgZmd0R2I4UGFuQlU/view?usp=sharing)
+    
+- layout: top-middle
+  name: <a name="asvo" href="#"></a>Animated Sparse Voxel Octrees
+  quote: Unpublished BSc thesis
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tkn6ubbp1SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    Voxels date back [20 years](http://advsys.net/ken/voxlap.htm). They have many advantages over polygon meshes. However, they always suffered form the lack of a hardware-accelerated rendering pipeline and the infeasiblity of animating them. I tackled this age-old computer graphics problem in my BSc thesis. The (GPU-accelerated) animation technique I developed enables:
+    
+    - Skeletal animation of voxels models
+    - Rendering of mixed polygon- and voxel-based content.
+    
+    **Resources**:
+    - <img class="icon" src="images/pdf.png"/> [BSc thesis](https://drive.google.com/file/d/0B8mr2Y3MS0dgS0ktekNmUzBUeGc/view?usp=sharing)
+    - <img class="icon" src="images/yt.png"/> [In-depth video tutorial series](https://www.youtube.com/watch?v=Tl6PE_n6zTk&list=PLfuJEfUHg4HGC-pS85iam40FmG9vyLYcR)
+    - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/asvo)

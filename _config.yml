@@ -1,0 +1,53 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon-32x32.png
+
+# Personal info
+name: Dennis Bautembach
+title: PhD Student
+email: dennis@bautembach.de
+#website: www.github.com/sproogen/resume-theme
+
+# Social links
+#twitter_username: facespics
+github_username:  denniskb
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: chillwildlife
+#linkedin_username: jameswgrant
+# pinterest_username: jekyll
+youtube_username: radulphi
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  At the age of 10 I was gifted [my first PC](images/vtech.jpg) which included a Basic compiler. I've been coding ever since.. Currently I am a PhD student at the University of Crete, expecting to graduate in summer 2021.
+
+# Projects Section
+projects_title: Publications/Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+#more_title: Misc.
+#more_content: | # this will include new lines to allow paragraphs
+
+# Footer
+footer_show_references: false
+
+# Build settings
+#remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
