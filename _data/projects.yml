@@ -31,7 +31,7 @@
     <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1KjbFcSWh6folu6oz8NeEeMGG2jGLinGL/view?usp=sharing)
     
 - layout: top-middle
-  name: <a name="hdfusion" href="#"></a>Scalable Volumetric Surface Reconstruction
+  name: <a name="hdfusion" href="#"></a>Scalable Real-time Volumetric Surface Reconstruction
   quote: >
     Chen, J., Bautembach, D., & Izadi, S. (2013). Scalable real-time volumetric surface reconstruction. ACM Transactions on Graphics (ToG), 32(4), 1-16.
   description: | # this will include new lines to allow paragraphs
