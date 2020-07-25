@@ -79,7 +79,8 @@ permalink: pretty
 
 baseurl:
 
-highlighter: none
+highlighter: rogue
+pygments: false
 
 exclude:
   - .jekyll-cache
