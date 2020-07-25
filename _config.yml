@@ -79,7 +79,7 @@ permalink: pretty
 
 baseurl:
 
-highlighter: rogue
+highlighter: rouge
 pygments: false
 
 exclude:
