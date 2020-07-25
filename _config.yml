@@ -6,7 +6,6 @@ favicon: images/favicon-32x32.png
 name: Dennis Bautembach
 title: PhD Student
 email: dennis@bautembach.de
-#website: www.github.com/sproogen/resume-theme
 
 # Social links
 #twitter_username: facespics
@@ -57,3 +56,70 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jekyll-paginate
+# - jekyll-sitemap 
+ 
+### Sidey ###
+ 
+site: Sidey
+url: ""
+#title: Sidey
+#description: Simple and minimalistic jekyll blogging theme.
+#twitter:
+#  username: #yourusername
+#  card: summary
+#  creator: #yourusername
+#author:
+#  twitter: #yourusername
+#  name: #yourusername
+#  avatar:
+#  email: #youremail
+#  url: #yoururl
+permalink: pretty
+
+baseurl:
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+#sass:
+#  sass_dir:          _sass
+#  style:            :compressed
+
+#plugins: # added above
+#  - jekyll-paginate
+#  - jekyll-seo-tag
+#  - jekyll-sitemap  
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "blog/default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
