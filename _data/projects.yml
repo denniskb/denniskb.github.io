@@ -13,7 +13,11 @@
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
-    We present a state of the art spiking neural network simulator that is up to 3x faster than the competition and features a modern and inuitive API, allowing you to simulate completely custom models with ease.
+    "Spice" is a state of the art spiking neural network simulator written in C++ and CUDA. It
+    - is up to 3x faster than the competition,
+    - allows you to specify your own models through a modern and intuitive API (you simply inherit from a model base class and override callbacks),
+    - builds out of the box without any 3rd-party dependencies (apart from CUDA), and
+    - does not involve any proprietary compilation steps or domain-specific languages.
     
     **Resources**:
     - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1fMu2vXAJo_2gCZxkjsoQKoW8_D69qtwy/view?usp=sharing)
