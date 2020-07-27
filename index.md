@@ -20,6 +20,8 @@ if (wp.test(url) || wp_old.test(url)) {
 	url = url.replace("?p=301", "#hdfusion");
 	url = url.replace("?p=362", "#asvo");
 
+	url = url.replace(wp, "");
+
 	window.location.href = url;
 }
 </script>
