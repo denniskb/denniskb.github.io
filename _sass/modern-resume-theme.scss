@@ -187,6 +187,9 @@ p.quote {
 iframe {
   display: block;
   margin: 1em auto 1em auto;
+  
+  width: 100%;
+  max-width: 560px;
 }
 
 img.icon {
