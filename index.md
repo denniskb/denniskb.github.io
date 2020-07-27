@@ -7,3 +7,19 @@
 #
 layout: default
 ---
+<script>
+var url = window.location.href;
+
+var wp = /\?(p|cat)=[0-9]{2,3}/;
+
+if (wp.test(url) || wp_old.test(url)) {
+	url = url.replace("?cat=11", "");
+	url = url.replace("?cat=12", "#pubs");
+	
+	url = url.replace("?p=207", "2011/10/24/revisiting-asvos");
+	url = url.replace("?p=301", "#hdfusion");
+	url = url.replace("?p=362", "#asvo");
+
+	window.location.href = url;
+}
+</script>
