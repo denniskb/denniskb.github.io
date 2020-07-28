@@ -1,5 +1,7 @@
 links:
 - title: Blog
   url: /blog/
-- title: Main Site
+- title: Tags
+  url: /tags/
+- title: "&nbsp;<br/>Main Site"
   url: /

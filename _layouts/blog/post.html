@@ -5,7 +5,8 @@ layout: blog/default
 <section class="post">
   <h2>{{ page.title }}</h2>
   {{ content }}
-  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time></span>
+<span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time> &middot; <span class="tags">{% for tag in page.tags %}
+    <a href="/tag/{{tag}}">{{tag}}</a> {% endfor %}</span></span>
 </section>
 
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 *,:after,:before {
 	box-sizing:border-box;
 	background-color:inherit;
@@ -48,6 +50,10 @@ pre {
 
 .post h2:first-child, .project h2:first-child, .photo h2:first-child {
 	margin-top: 0;
+}
+
+.post .tags {
+	font-family: 'Source Code Pro', monospace;
 }
 
 .meta {
@@ -141,11 +147,11 @@ strong, b {
 	list-style:none;
 }
 
-.posts li {
+.posts li:not(.tags) {
 	align-items:center;
 	display:flex;
 	justify-content:space-between;
-	margin-bottom: .5rem;
+	line-height: 1.5em;
 }
 
 .posts li a, .posts li div, .projects li a {
@@ -159,6 +165,15 @@ strong, b {
 	padding-left: 1rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
+}
+
+.posts li.tags,
+.posts li.tags a {
+	color: #333;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 0.8em;
+	line-height: 1em;
+	margin-bottom: 0.5rem;
 }
 
 .post ul, .project ul, .post ol  {

@@ -1,6 +1,7 @@
 ---
 layout: blog/post
 title: Revisiting ASVOs
+tags: voxels 3d-graphics realtime-rendering
 ---
 
 In this article I would like to revisit “Animated Sparse Voxel Octrees” (ASVOs) and voxels in general. Since the release of my bachelor thesis in March 2011, many things happened in the voxel graphics world and I gained a new view on my work, which I’d like to share with you.
