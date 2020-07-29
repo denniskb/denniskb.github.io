@@ -7,7 +7,7 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
-  name: Faster and Simpler SNN Simulation with Work Queues
+  name: <a name="spice" href="#"></a>Faster and Simpler SNN Simulation with Work Queues
   quote: >
     Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2019). Faster and Simpler SNN Simulation with Work Queues. To appear in IJCNN 2020.
   description: | # this will include new lines to allow paragraphs
