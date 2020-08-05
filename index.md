@@ -12,7 +12,7 @@ var url = window.location.href;
 
 var wp = /\?(p|cat)=[0-9]{2,3}/;
 
-if (wp.test(url) || wp_old.test(url)) {
+if (wp.test(url)) {
 	url = url.replace("?cat=11", "");
 	url = url.replace("?cat=12", "#pubs");
 	
