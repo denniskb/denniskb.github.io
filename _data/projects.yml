@@ -24,12 +24,11 @@
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/ijcnn2020)
     
 - layout: top-middle
-  name: A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
+  name: <a name="matcomp" href="#"></a>A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
   quote: >
     Bautembach, D., Oikonomidis, I., & Argyros, A. (2018, June). A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference (pp. 23-30).
   description: | # this will include new lines to allow paragraphs
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaX" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kqW4qFYzjug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     We estimate human poses by treating them as missing/incomplete rows in a "pose database" matrix and calculating missing entries via matrix completion.
     
     <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1KjbFcSWh6folu6oz8NeEeMGG2jGLinGL/view?usp=sharing)
