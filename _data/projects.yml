@@ -9,7 +9,7 @@
 - layout: top-middle
   name: <a name="spice" href="#"></a>Faster and Simpler SNN Simulation with Work Queues
   quote: >
-    Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2019). Faster and Simpler SNN Simulation with Work Queues. To appear in IJCNN 2020.
+    Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2020, July). Faster and Simpler SNN Simulation with Work Queues. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
