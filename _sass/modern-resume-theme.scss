@@ -59,14 +59,14 @@
 }
 
 .layout {
-  margin-top: 3rem;
+  margin-top: 2rem;
 
   .details {
     text-align: left;
 
     p {
       margin-bottom: 3px;
-      font-size: 1.6rem;
+      font-size: 1rem;
       text-align: inherit;
       font-weight: 300;
 
@@ -90,19 +90,19 @@
     }
 
     .fa {
-      font-size: 2rem;
+      font-size: 1.25rem;
     }
 
     .link {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
 
     h4 {
-      margin-bottom: 0.1rem;
+      margin-bottom: 0.06rem;
       font-weight: 500;
 
       @media print {
-        margin-bottom: 0.2rem;
+        margin-bottom: 0.125rem;
       }
 
       a {
@@ -172,15 +172,15 @@
 }
 
 p.quote {
-  font-size: 1.4rem;
+  font-size: 0.9rem;
   font-style: italic;
-  padding: 1rem 2.5rem;
+  padding: 0.6rem 1.5rem;
   text-align: center;
 
   @media print {
     text-align: left;
-    padding: 0rem 1rem;
-    margin-top: 1rem;
+    padding: 0rem 0.6rem;
+    margin-top: 0.6rem;
   }
 }
 
