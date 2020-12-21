@@ -19,6 +19,7 @@ if (wp.test(url)) {
 	url = url.replace("?p=207", "2011/10/24/revisiting-asvos");
 	url = url.replace("?p=301", "#hdfusion");
 	url = url.replace("?p=362", "#asvo");
+	url = url.replace("?p=372", "#asvo");
 
 	url = url.replace(wp, "");
 
