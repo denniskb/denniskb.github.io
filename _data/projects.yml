@@ -7,6 +7,23 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
+  name: <a name="spice" href="#"></a>Multi-GPU SNN Simulation with Perfect Static Load Balancing
+  quote: >
+    Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Perfect Static Load Balancing. Submitted to IJCNN 2021.
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5ja" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    We present the first SNN simulator to scale to 8 GPUs, allowing you to simulate larger models and in less time than ever before. Features include:
+    - State of the art performance (incl. lightning fast setup)
+    - Ability to define custom models in native C++
+    - Modern, user-friendly API
+    - No 3rd-party dependencies (except CUDA)    
+    
+    **Resources**:
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1YkB3tS34P-YIF9sSLdyCbPnxkM3T7uVZ/view?usp=sharing)
+    - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice)
+    
+- layout: top-middle
   name: <a name="spice" href="#"></a>Faster and Simpler SNN Simulation with Work Queues
   quote: >
     Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2020, July). Faster and Simpler SNN Simulation with Work Queues. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
