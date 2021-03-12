@@ -16,7 +16,7 @@ permalink: /skop/
 
 	<table align="center"><tr><td align="center">
 	<form>
-	<table cellspacing="20">
+	<table cellspacing="10">
 		<tr><th align="left">Onoma</th><td><input id="name" type="text"></td></tr>
 		<tr><th align="left">On. Patera</th><td><input id="father" type="text"></td></tr>
 		<tr><td colspan="2" align="center"><a href="#" id="download">Katebase to Bebaiosh</a></td></tr>
