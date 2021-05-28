@@ -11,8 +11,8 @@
   quote: >
     Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Perfect Static Load Balancing. Submitted to IJCNN 2021.
   description: | # this will include new lines to allow paragraphs
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5ja" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bXwnmT0zqUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     We present the first SNN simulator to scale to 8 GPUs, allowing you to simulate larger models and in less time than ever before. Features include:
     - State of the art performance (incl. lightning fast setup)
     - Ability to define custom models in native C++
