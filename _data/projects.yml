@@ -7,9 +7,9 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
-  name: <a name="multi-spice" href="#"></a>Multi-GPU SNN Simulation with Perfect Static Load Balancing
+  name: <a name="multi-spice" href="#"></a>Multi-GPU SNN Simulation with Static Load Balancing
   quote: >
-    Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Perfect Static Load Balancing. Submitted to IJCNN 2021.
+    Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Static Load Balancing. To appear in 2021 International Joint Conference on Neural Networks (IJCNN). IEEE.
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/bXwnmT0zqUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
