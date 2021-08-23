@@ -7,6 +7,19 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
+  name: <a name="hpec21" href="#"></a>Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics
+  quote: >
+    D. Bautembach, I. Oikonomidis and A. Argyros, "Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics", to appear in 2021 IEEE High Performance Extreme Computing Conference (HPEC), 2021.
+  description: | # this will include new lines to allow paragraphs
+    <img style="display:block; margin:0 auto; width:800px;" src="images/hpec21.png"/>
+
+    A short paper about two neat optimizations to accelerate clock-driven SNN simulators.
+
+    **Resources**:
+    - [Paper](https://arxiv.org/abs/2107.04092) (arXiv)
+    - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice/tree/gather)
+
+- layout: top-middle
   name: <a name="multi-spice" href="#"></a>Multi-GPU SNN Simulation with Static Load Balancing
   quote: >
     Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Static Load Balancing. To appear in 2021 International Joint Conference on Neural Networks (IJCNN). IEEE.

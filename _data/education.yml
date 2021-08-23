@@ -14,7 +14,7 @@
   dates: 2015 - present
   qualification: PhD Computer Science
   description: | # this will include new lines to allow paragraphs
-    Area of specialization: Spiking Neural Networks (simulation, multi-GPU parallelization, applications). See publications/projects for more. Expected to graduate in summer 2021.
+    Area of specialization: Spiking Neural Networks (high-performance simulation on GPGPUs, multi-GPU parallelization, applications). See publications/projects for more. Expected to graduate in autumn of 2021.
 
 - layout: left
   name: University of Hamburg
