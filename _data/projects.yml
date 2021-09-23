@@ -7,22 +7,20 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
-  name: <a name="hpec21" href="#"></a>Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics
-  quote: >
-    D. Bautembach, I. Oikonomidis and A. Argyros, "Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics", to appear in 2021 IEEE High Performance Extreme Computing Conference (HPEC), 2021.
+  name: <a name="hpec2021" href="#"></a>Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics
+  quote: <a href="https://arxiv.org/abs/2107.04092v2">arxiv:2107.04092v2</a>
   description: | # this will include new lines to allow paragraphs
     <img style="display:block; margin:0 auto; width:800px;" src="images/hpec21.png"/>
 
-    A short paper about two neat optimizations to accelerate clock-driven SNN simulators.
+    Two optimizations to speed up spike transmission and spike timing-based plasticity in clock-based SNN simulators. Both combined yield a > 2x speedup over our closest competitor, re-establishing ourselves as the fastest simulator.
 
     **Resources**:
-    - [Paper](https://arxiv.org/abs/2107.04092) (arXiv)
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/16gNt_U3hbAw0OV56bHO3eVs238x7g2IB/view?usp=sharing)
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice/tree/gather)
 
 - layout: top-middle
-  name: <a name="multi-spice" href="#"></a>Multi-GPU SNN Simulation with Static Load Balancing
-  quote: >
-    Bautembach, D., Oikonomidis, I., & Argyros, A. (2021). Multi-GPU SNN Simulation with Static Load Balancing. To appear in 2021 International Joint Conference on Neural Networks (IJCNN). IEEE.
+  name: <a name="ijcnn2021" href="#"></a>Multi-GPU SNN Simulation with Static Load Balancing
+  quote: <a href="https://doi.org/10.1109/IJCNN52387.2021.9533921">10.1109/IJCNN52387.2021.9533921</a>
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/bXwnmT0zqUM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
@@ -33,13 +31,12 @@
     - No 3rd-party dependencies (except CUDA)    
     
     **Resources**:
-    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1YkB3tS34P-YIF9sSLdyCbPnxkM3T7uVZ/view?usp=sharing)
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/19gUwSEJ-4hYYDnUjttG37V1J2ZmS81Tt/view?usp=sharing)
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice)
     
 - layout: top-middle
-  name: <a name="spice" href="#"></a>Faster and Simpler SNN Simulation with Work Queues
-  quote: >
-    Bautembach, D., Oikonomidis, I., Kyriazis, N., & Argyros, A. (2020, July). Faster and Simpler SNN Simulation with Work Queues. In 2020 International Joint Conference on Neural Networks (IJCNN) (pp. 1-8). IEEE.
+  name: <a name="ijcnn2020" href="#"></a>Faster and Simpler SNN Simulation with Work Queues
+  quote: <a href="https://doi.org/10.1109/IJCNN48605.2020.9206752">10.1109/IJCNN48605.2020.9206752</a>
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/A4GEVUXi5js" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -50,13 +47,12 @@
     - does not involve any proprietary compilation steps or domain-specific languages.
     
     **Resources**:
-    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1y2Pu1tabl3FJPcm37bpkAEJJ1P474Rwn/view?usp=sharing)
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/1VQy950BeyIn06DSEVHrjbcMSbYn-VQVv/view?usp=sharing)
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice)
     
 - layout: top-middle
-  name: <a name="matcomp" href="#"></a>A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
-  quote: >
-    Bautembach, D., Oikonomidis, I., & Argyros, A. (2018, June). A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation. In Proceedings of the 11th PErvasive Technologies Related to Assistive Environments Conference (pp. 23-30).
+  name: <a name="petra2018" href="#"></a>A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
+  quote: <a href="https://doi.org/10.3390/technologies6040097">10.3390/technologies6040097</a>
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/kqW4qFYzjug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     We estimate human poses by treating them as missing/incomplete rows in a "pose database" matrix and calculating missing entries via matrix completion.
@@ -65,8 +61,7 @@
     
 - layout: top-middle
   name: <a name="hdfusion" href="#"></a>Scalable Real-time Volumetric Surface Reconstruction
-  quote: >
-    Chen, J., Bautembach, D., & Izadi, S. (2013). Scalable real-time volumetric surface reconstruction. ACM Transactions on Graphics (ToG), 32(4), 1-16.
+  quote: <a href="https://doi.org/10.1145/2461912.2461940">10.1145/2461912.2461940</a>
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RR2fhy35oaY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
@@ -76,7 +71,6 @@
     
     **Resources**:
     - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/0B8mr2Y3MS0dgMzE2VGpzWHJPQ28/view?usp=sharing)
-    - <img class="icon" src="images/pp.png"/> [Siggraph slides](https://drive.google.com/file/d/0B8mr2Y3MS0dgZmd0R2I4UGFuQlU/view?usp=sharing)
     
 - layout: top-middle
   name: <a name="asvo" href="#"></a>Animated Sparse Voxel Octrees
