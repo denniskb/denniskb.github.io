@@ -70,7 +70,7 @@
     In this paper we extend KinectFusion with a sparse data structure and streaming, allowing us to scan areas of virtually infinite size while maintaining the quality and performance of the original algorithm.
     
     **Resources**:
-    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/0B8mr2Y3MS0dgMzE2VGpzWHJPQ28/view?usp=sharing)
+    - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/0B8mr2Y3MS0dgMzE2VGpzWHJPQ28/view?usp=sharing&resourcekey=0-WXneiKnhzP52YGUh5vlArQ)
     
 - layout: top-middle
   name: <a name="asvo" href="#"></a>Animated Sparse Voxel Octrees
@@ -85,6 +85,6 @@
     - Rendering of mixed polygon- and voxel-based content.
     
     **Resources**:
-    - <img class="icon" src="images/pdf.png"/> [BSc thesis](https://drive.google.com/file/d/0B8mr2Y3MS0dgS0ktekNmUzBUeGc/view?usp=sharing)
+    - <img class="icon" src="images/pdf.png"/> [BSc thesis](https://drive.google.com/file/d/0B8mr2Y3MS0dgS0ktekNmUzBUeGc/view?usp=sharing&resourcekey=0-S8ilCmq_YtJKmkv2imzi3w)
     - <img class="icon" src="images/yt.png"/> [In-depth video tutorial series](https://www.youtube.com/watch?v=Tl6PE_n6zTk&list=PLfuJEfUHg4HGC-pS85iam40FmG9vyLYcR)
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/asvo)
