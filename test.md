@@ -4,6 +4,7 @@ permalink: /test/
 ---
 <head>
 	<meta charset="utf-8">
+	<link rel="shortcut icon" href="#">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	<script src="../assets/js/js.cookie-2.2.1.min.js"></script>
 	<style>
@@ -68,20 +69,10 @@ permalink: /test/
 
 			ctx.drawImage($("#template")[0], 0, 0, 1646, 2290);
 
-			var date = function(){
-				var d = new Date();
-				var utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-				// Greek time zone utc+2
-				var nd = new Date(utc + (3600000*2));
-
-				return {day: nd.getDate(), month: nd.getMonth()+1};
-			}();
-
 			ctx.font = "30px Tahoma1";
 			ctx.fillText($("#nachname").val().toUpperCase() + " " + $("#vorname").val().toUpperCase(), 75, 352);
 			
 			ctx.font = "27px Tahoma1";
-
 			ctx.fillText($("#perso").val().toUpperCase(), 413, 397);
 			ctx.fillText(hash($("#vorname").val() + $("#nachname").val()), 295, 437);
 			ctx.fillText($("#birth").val(), 453, 475);
@@ -101,22 +92,18 @@ permalink: /test/
 				return new Date(new Date() - birth).getFullYear() - 1970;
 			}();
 			ctx.fillText(age, 1360, 476);
-			
-			return ctx;
 		}
 
 		$(document).ready(function(){
-			$("#template").on("load", function(){
-				if (typeof Cookies.get("vorname", {path: '/test/'}) !== "undefined"){
-					$("#vorname").val(Cookies.get("vorname", {path: '/test/'}));
-					$("#nachname").val(Cookies.get("nachname", {path: '/test/'}));
-					$("#perso").val(Cookies.get("perso", {path: '/test/'}));
-					$("#birth").val(Cookies.get("birth", {path: '/test/'}));
-					$("#date").val(Cookies.get("date", {path: '/test/'}));
-					$("#time").val(Cookies.get("time", {path: '/test/'}));
-				}
-				setTimeout(function(){ update(); }, 200);
-			});
+			if (typeof Cookies.get("vorname", {path: '/test/'}) !== "undefined"){
+				$("#vorname").val(Cookies.get("vorname", {path: '/test/'}));
+				$("#nachname").val(Cookies.get("nachname", {path: '/test/'}));
+				$("#perso").val(Cookies.get("perso", {path: '/test/'}));
+				$("#birth").val(Cookies.get("birth", {path: '/test/'}));
+				$("#date").val(Cookies.get("date", {path: '/test/'}));
+				$("#time").val(Cookies.get("time", {path: '/test/'}));
+			}
+			setTimeout(update, 500);
 		});
 
 		function update() {
