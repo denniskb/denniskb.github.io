@@ -51,9 +51,9 @@ permalink: /skop/
 		}
 
 		$("#template").on("load", function(){
-			if (typeof Cookies.get("name") !== "undefined"){
-				$("#name").val(Cookies.get("name"));
-				$("#father").val(Cookies.get("father"));
+			if (typeof Cookies.get("name", {path: '/skop/'}) !== "undefined"){
+				$("#name").val(Cookies.get("name", {path: '/skop/'}));
+				$("#father").val(Cookies.get("father", {path: '/skop/'}));
 			}
 			updateNames();
 		});
@@ -69,11 +69,11 @@ permalink: /skop/
 		}
 
 		$("#name").on("keyup", function(){
-			Cookies.set("name", $(this).val());
+			Cookies.set("name", $(this).val(), {path: '/skop/'});
 			updateNames();
 		});
 		$("#father").on("keyup", function(){
-			Cookies.set("father", $(this).val());
+			Cookies.set("father", $(this).val(), {path: '/skop/'});
 			updateNames();
 		});
 	</script>
