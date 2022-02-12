@@ -7,12 +7,23 @@
 #  description: | # this will include new lines to allow paragraphs
 #    I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 - layout: top-middle
+  name: <a name="phd" href="#"></a>Simulating SNNs on Multiple GPUs - When a Microsecond is an Eternity
+  quote: Unpublished PhD Thesis
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hP295orEs4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    In my PhD thesis I summarize and elaborate on my research work of the last three years, including never-before-released (implementation) details. If you want to learn how to write high-performance, parallel SNN simulators from scratch on GPGPU hardware, this will be of interest to you.
+    
+    **Resources**:
+    - <img class="icon" src="images/pdf.png"/> [Thesis](https://drive.google.com/file/d/1ftypv2WZ3i_SgCv21HU4AMklg3-70tkE/view?usp=sharing)
+        
+- layout: top-middle
   name: <a name="hpec2021" href="#"></a>Even Faster SNN Simulation with Lazy+Event-driven Plasticity and Shared Atomics
   quote: <a href="https://doi.org/10.1109/HPEC49654.2021.9622805">10.1109/HPEC49654.2021.9622805</a>
   description: | # this will include new lines to allow paragraphs
     <img style="display:block; margin:0 auto; width:800px;" src="images/hpec21.png"/>
 
-    Two optimizations to speed up spike transmission and spike timing-based plasticity in clock-based SNN simulators. Both combined yield a > 2x speedup over our closest competitor, re-establishing ourselves as the fastest simulator.
+    We present two novel optimizations for SNN simulation. The first, called "shared memory-based spike delivery" is a blocking scheme that makes it possible to load neurons piecewise into shared memory and perform/deliver all updates/spikes there. The second is a variation of event-driven plasticity called "lazy event-driven plasticity" which performs fewer updates and in a more memory-efficient way compared to event-driven plasticity. Both optimizations combined sped up Spike by more than 2x, re-establishing ourselves as the fastest SNN simulator.
 
     **Resources**:
     - <img class="icon" src="images/pdf.png"/> [Paper](https://drive.google.com/file/d/16gNt_U3hbAw0OV56bHO3eVs238x7g2IB/view?usp=sharing)
