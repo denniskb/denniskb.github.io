@@ -23,7 +23,7 @@ youtube_username: radulphi
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  At the age of 10 I was gifted [my first PC](images/vtech.jpg) which included a Basic compiler. I've been coding ever since.. Currently I am a PhD student at the University of Crete, expecting to graduate in autumn of 2021.
+  At the age of 10 I was gifted [my first PC](images/vtech.jpg) which included a Basic compiler. 23 years later I received my PhD from the University of Crete.
   
   **Contents**:
   - [Publications/Projects](#pubs)
