@@ -62,6 +62,19 @@
     - <img class="icon" src="images/git.png"/> [Source code](https://github.com/denniskb/spice)
     
 - layout: top-middle
+  name: <a name="hy475" href="#"></a>Fully interactive robotics course
+  quote: <a href="https://github.com/denniskb/hy475">github.com/denniskb/hy475</a>
+  description: | # this will include new lines to allow paragraphs
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WtmwQCXoTM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    As part of my TA duties I designed a [fully interactive online course](https://github.com/denniskb/hy475) focusing on robotic navigation. It alows you to code and simulate robots directly in your browser using JavaScript.
+
+    Student testimonials:
+    - "I really felt that somebody cared about me as a student after all these years of studies."
+    - "I have to say you make the most interesting assignments. Most of the assignments of other courses do not have any meaning."
+    - "a big thanks for your help ... no one had ever spend so much time ... and actually helped us with immediate feedback, so please keep it up for the next years."
+
+- layout: top-middle
   name: <a name="petra2018" href="#"></a>A Comparative Study of Matrix Completion and Recovery Techniques for Human Pose Estimation
   quote: <a href="https://doi.org/10.3390/technologies6040097">10.3390/technologies6040097</a>
   description: | # this will include new lines to allow paragraphs
