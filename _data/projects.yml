@@ -67,7 +67,7 @@
   description: | # this will include new lines to allow paragraphs
     <iframe width="560" height="315" src="https://www.youtube.com/embed/WtmwQCXoTM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    As part of my TA duties I designed a [fully interactive online course](https://github.com/denniskb/hy475) focusing on robotic navigation. It alows you to code and simulate robots directly in your browser using JavaScript.
+    As part of my TA duties I designed a [fully interactive online course](https://github.com/denniskb/hy475) on robotic navigation. It alows you to code and simulate robots directly in your browser using JavaScript.
 
     Student testimonials:
     - "I really felt that somebody cared about me as a student after all these years of studies."
