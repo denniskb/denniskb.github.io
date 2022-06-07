@@ -21,6 +21,6 @@
   dates: 2007 - 2011
   qualification: BSc Computer Science
   description: | # this will include new lines to allow paragraphs
-    In my BSc thesis, tackled the decade-old problem in computer graphics of [animating voxels](#asvo).
+    In my BSc thesis, tackled the decade-old Computer Graphics problem of [animating voxels](#asvo).
     
-    Co-developed a realtime strategy game called [Ink Wars](https://www.youtube.com/watch?v=jdFD9vzizTg).
+    Co-developed a realtime strategy game called [Ink Wars](https://fietkau.media/ink_wars).
