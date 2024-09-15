@@ -3,6 +3,13 @@ layout: blank
 title: sha
 permalink: /sha/
 ---
+<pre>
+hash     = sha256(input)
+trunc    = hash[0:16]
+trunc[0] = '-'
+password = makeFirstLetterUpperCase(trunc) 
+</pre>
+
 <input id="inputstring" size="30" type="password" onkeyup="update()">
 <p id="hash"></p>
 
