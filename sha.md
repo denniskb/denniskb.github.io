@@ -4,10 +4,19 @@ title: sha
 permalink: /sha/
 ---
 <pre>
-hash     = sha256(input)
-trunc    = hash[0:16]
-trunc[0] = '-'
-password = makeFirstLetterUpperCase(trunc) 
+"password"
+    |sha256
+    v
+5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+    |substr(0, 16)
+    v
+5e884898da280471
+    |str[0] = '-'
+    v
+-e884898da280471
+    |make first *letter* upper case
+    v
+-E884898da280471
 </pre>
 
 <input id="inputstring" size="30" type="password" onkeyup="update()">
